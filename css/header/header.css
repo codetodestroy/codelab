@@ -1,0 +1,49 @@
+.main-header {
+    padding: 48px 24px;
+    background-color: var(--dark-20);
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Title */
+.main-title {
+    font-family: 'Space Grotesk', monospace;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.275;
+}
+
+.main-title a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.main-title span {
+    color: var(--brand-color);
+}
+
+/* Search */
+.search {
+    width: 100%;
+}
+
+.search input {
+    font-family: "Inter", sans-serif;
+    color: var(--gray);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.21;
+
+    width: inherit;
+    height: 49px;
+    padding: 16px 24px;
+    background-color: var(--dark-30) ;
+    border: 2px solid var(--dark-40);
+    border-radius: 8px;
+}
+

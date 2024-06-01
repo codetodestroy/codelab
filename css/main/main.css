@@ -96,3 +96,24 @@ article:hover {
     }
 
 }
+
+@media (min-width: 1920px) {
+    main {
+        padding: 88px 352px;
+    }
+
+    .article-info time {
+        font-size: 1rem;
+        line-height: 0.826rem;
+    }
+
+    .article-title {
+        font-size: 1.5rem;
+        line-height: 1.276rem;
+    }
+
+    .article-paragraph {
+        font-size: 1.25rem;
+    }
+
+}

@@ -15,7 +15,7 @@
     font-family: 'Space Grotesk', monospace;
     font-size: 1.5rem;
     font-weight: 500;
-    line-height: 1.275;
+    line-height: 1.275rem;
 }
 
 .main-title a {
@@ -37,7 +37,7 @@
     color: var(--gray);
     font-size: 0.875rem;
     font-weight: 500;
-    line-height: 1.21;
+    line-height: 1.21REM;
 
     width: inherit;
     height: 49px;
@@ -46,4 +46,3 @@
     border: 2px solid var(--dark-40);
     border-radius: 8px;
 }
-

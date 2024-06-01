@@ -73,3 +73,26 @@ article:hover {
     color: var(--gray);
     line-height: 1.6rem;
 }
+
+@media (min-width: 768px) {
+    main {
+        padding: 56px 32px;
+    }
+
+    article {
+        padding: 40px;
+    }
+
+    .article-header {
+        gap: 24px;
+    }
+
+    .article-info time {
+        font-size: 0.875rem;
+    }
+
+    .article-paragraph {
+        font-size: 1rem;
+    }
+
+}

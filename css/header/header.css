@@ -37,12 +37,31 @@
     color: var(--gray);
     font-size: 0.875rem;
     font-weight: 500;
-    line-height: 1.21REM;
+    line-height: 1.21rem;
 
     width: inherit;
     height: 49px;
     padding: 16px 24px;
-    background-color: var(--dark-30) ;
+    background-color: var(--dark-30);
     border: 2px solid var(--dark-40);
     border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    .main-header {
+        padding: 64px 32px;
+
+        gap: 48px;
+    }
+
+    .main-title {
+        font-size: 2.5rem;
+    }
+
+    .search input {
+        font-size: 1.25rem;
+
+        height: 56px;
+        padding: 16px 24px;
+    }
 }

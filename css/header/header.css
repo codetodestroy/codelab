@@ -15,7 +15,7 @@
     font-family: 'Space Grotesk', monospace;
     font-size: 1.5rem;
     font-weight: 500;
-    line-height: 1.275rem;
+    line-height: 30.62px;
 }
 
 .main-title a {
@@ -37,7 +37,7 @@
     color: var(--gray);
     font-size: 0.875rem;
     font-weight: 500;
-    line-height: 1.21rem;
+    line-height: 16.94px;
 
     width: inherit;
     height: 49px;
@@ -56,10 +56,12 @@
 
     .main-title {
         font-size: 2.5rem;
+        line-height: 51.04px;
     }
 
     .search input {
         font-size: 1.25rem;
+        line-height: 24.2px;
 
         height: 56px;
         padding: 16px 24px;

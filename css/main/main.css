@@ -16,6 +16,7 @@ article {
     border: 2px solid var(--dark-40);
     border-radius: 8px;
     padding: 32px 24px;
+    transition: ease 0.3s;
 }
 
 article:hover {

@@ -45,6 +45,12 @@
     background-color: var(--dark-30);
     border: 2px solid var(--dark-40);
     border-radius: 8px;
+    outline: none;
+    transition: ease 0.3s;
+}
+
+input:focus {
+    border: 2px solid var(--brand-color);
 }
 
 @media (min-width: 768px) {

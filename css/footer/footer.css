@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    margin-bottom: 20px;
+
+    font-size: 0.8rem;
+}
+
+.footer a {
+    color: #986dff;
+}
+
+.footer a[href="https://github.com/codetodestroy"] {
+    color: lightblue;
+}
